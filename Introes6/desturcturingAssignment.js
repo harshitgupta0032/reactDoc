@@ -1,3 +1,6 @@
+
+//***************************************************** destructuring assignment trying all type in object  ******************************** 
+//***************************************************** (String , number, boolean)  ******************************** 
 const user = {
     name : "Harshit gupta",
     email : "123abc@gmail.com",
@@ -18,6 +21,8 @@ console.log("");
 console.log("Arrays Destructuring :- ")
 console.log("");
 
+//******************************************************** Arrays destructuring  ******************************** 
+
 const place2 = ["Ayodhya", "Delhi", "Greater noida", "noida"];
 
 const [a,b,c,d] = place2;
@@ -25,7 +30,7 @@ console.log(a);
 console.log(b);
 console.log(c);
 console.log(d);
-
+//***************************************************** swap two number without taking third variable using array destructuring  ********************************
 console.log("");
 console.log("swap two variable without taking third variable :- ");
 
@@ -37,6 +42,7 @@ console.log(`a : ${x}, b : ${y}`);
 console.log("after swap");
 console.log(`a : ${x}, b : ${y}`);
 
+//***************************************************** trying to swap String without taking third variable  ********************************
 console.log("");
 console.log("trying with string")
 let x1 = "Delhi";
@@ -47,6 +53,7 @@ console.log("after swap");
 console.log(`a : ${x1}, b : ${y1}`);
 
 
+//***************************************************** swaping  taking third variable  ********************************
 console.log("");
 console.log("Swaping using third variable")
 let x2 = 2;
@@ -62,12 +69,14 @@ console.log(`a : ${x2}, b : ${y2}`);
 
 
 
-
+//***************************************************** ignore first value before @ using regex  ********************************
+console.log("");
 const str = 'bey@knowles.com'
 const rgx = /\@(\w+\.\w+)/
 let [,match] = str.match(rgx)
 console.log(`ignore first value using rexeg ${match}`);
 
+//***************************************************** trying to ignore value before and after @ using regex  ********************************
 const st = 'bey@knowles@.com';
 const rg = /\@(\w+\w+)/;
 let [, match1] = st.match(rg);

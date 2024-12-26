@@ -1,3 +1,6 @@
+
+//**************************************************** */ Intro - Array destructuring ******************************** 
+
 console.log("Two types of destructuring :- ")
 
 console.log("1. Array destructuring :- ")
@@ -9,7 +12,7 @@ console.log(feeling)
 console.log(version)
 
 console.log(`I ${feeling} ${version}`);
-
+//**************************************************** */  object destructuring ******************************** 
 console.log("");
 console.log("2. Object destructuring :- ")
 
